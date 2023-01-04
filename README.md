@@ -1,0 +1,5 @@
+# Calculator1
+Programmet är en enkel kalkylator med ett terminal-interface som skrivs i Java. Det börjar med att importera en klass som heter Scanner, som används för att läsa in indata från användaren. En klass som heter Calculator med en main-metod definieras sedan och det är den metod som körs när programmet sätter igång.
+ Innan kalkylatorn utförs, läser programmet in två tal från användaren med hjälp av Scanner-klassen. Dessa tal sparas som double-variabler då kalkylatorn i programmet kan ge resultat med decimaler. Programmet läser också in en kalkyl som en char (ett tecken).
+ Efter att indatat har lästs in, används en switch-sats för att utföra den valda räkneoperationen. Beroende på vilken räkneoperation som användaren har valt, utförs en viss operation på talen. Om användaren till exempel valt addition (+), så läggs talen samman och resultatet sparas i en variabel som heter result. Om användaren valt en ogiltig räknemetod, skrivs ett felmeddelande ut och programmet avslutas.
+Slutligen skrivs resultatet ut till användaren med hjälp av en println-sats. Programmet avslutas sedan.
